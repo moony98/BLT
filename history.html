@@ -15,51 +15,55 @@
 	</head>
 	<body>
 		<header class="bg-warning">blt</header>
-  
-  <!-- NAV BAR OPEN -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-success">
-	<div class="container-fluid">
 
-	  <p class="navbar-brand">BLT <img src="favicon.png" height="30px"></p>
+		<!-- NAV BAR OPEN -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+			<div class="container-fluid">
+				<p class="navbar-brand">BLT <img src="favicon.png" height="30px" /></p>
 
-	  <!-- this changes the navbar options into a dropdown list when the screen is resized too small -->
-	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	  </button>
+				<!-- this changes the navbar options into a dropdown list when the screen is resized too small -->
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<!-- homepage link -->
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">Home</a>
+						</li>
+						<!-- history of the BLT -->
+						<li class="nav-item">
+							<a class="nav-link active" href="history.html">BLT History</a>
+						</li>
+						<!-- famous places -->
+						<li class="nav-item">
+							<a class="nav-link" href="locations.html">Famous Locations</a>
+						</li>
 
-		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-		  <!-- homepage link -->
-		  <li class="nav-item">
-			<a class="nav-link" aria-current="page" href="index.html">Home</a>
-		  </li>
-		  <!-- history of the BLT -->
-		  <li class="nav-item">
-			<a class="nav-link active" href="history.html">BLT History</a>
-		  </li>
-		  <!-- famous places -->
-		  <li class="nav-item">
-			<a class="nav-link" href="locations.html">Famous Locations</a>
-		  </li>
+						<!-- recipes -->
+						<li class="nav-item">
+							<a class="nav-link" href="recipe.html">BLT Recipes</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- NAV BAR CLOSE -->
 
-		  <!-- recipes -->
-		  <li class="nav-item">
-			<a class="nav-link" href="recipe.html">BLT Recipes</a>
-		  </li>
-
-		</ul>
-	  </div>
-	</div>
-  </nav>
-  <!-- NAV BAR CLOSE -->
-
-  
 		<main class="container-fluid">
 			<section class="container">
-				<div class="row">
+				<div class="row align-items-center">
 					<div class="col">
-						<img src="./images/blt-1.jpg" alt="blt" class="img-fluid" />
+						<img src="./images/blt-1.jpg" alt="blt" class="img-fluid my-auto" />
 					</div>
 					<div class="col">
 						<h1>History</h1>
@@ -128,9 +132,20 @@
 			<span>Made by Moony & Max.</span>
 		</footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+			integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+			integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>
